@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+    background-color: hsl(140deg 70% 95%);
+    font-size: 1.4em;
+}
+
+main { 
+    min-height: calc(100vh - 7em);
+}
+
+.article{
+    background-color: hsl(60deg 70% 95%);
+}
+
+aside {
+    background-color: hsl(0deg 70% 95%);
+}
+
+article aside {
+    padding: 20px;
+    margin: 20px;
+
+}
+
+footer{
+    padding: 10px;
+    background-color: hsl(200deg 70% 95%);
+}
+
+p{
+    margin-block-start: 20px;
+}

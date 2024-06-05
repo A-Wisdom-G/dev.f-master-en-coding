@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: 200px 400px;
+    gap: 10px;
+ 
+}
+
+.elemento-grid{
+    background-color: white;
+    border: 1px solid blue;
+    font-size: 25px;
+    padding: 10px;
+}
+.cuadrito{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}

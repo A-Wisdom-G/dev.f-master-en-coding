@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    height: 1000px;
+    background: cornflowerblue;
+    color: white;
+
+    /* Va dentro del contenedor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.box {
+    height: 200px;
+    width:205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.box h1 {
+    color: white;
+}
+
+.main-container .is-blueviolet {
+    background-color: blueviolet;
+
+
+}
+
+.is-red {
+    background-color: red;
+}
+
+.is-yellow {
+    background-color: yellow;
+}
+
+.is-orange {
+    background-color: orange;
+}
+
+.is-black {
+    background-color: black;
+}
